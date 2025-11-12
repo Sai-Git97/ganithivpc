@@ -1,4 +1,4 @@
-resource "aws_vpc" "ganithi" {
+resource "aws_vpc" "sai" {
     cidr_block = var.cidr_block  
     enable_dns_hostnames = true
     tags = {
